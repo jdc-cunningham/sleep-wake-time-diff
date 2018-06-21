@@ -12,7 +12,7 @@ This is where the `sleep-wake-log-time.sh` file goes.
 
 When you close/open your laptop lid, the `sleep-wake-log-time.sh` detects which one happened and writes a sleep/wake label just before a timestamp.
 
-Then math-bash.sh parses the 1`timelogs.txt` text file that was written to.
+Then `math-bash.sh parses` the 1`timelogs.txt` text file that was written to.
 
 Note: this code is pretty ugly I can barely write bash, mostly found this code online.
 
