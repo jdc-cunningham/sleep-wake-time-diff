@@ -74,8 +74,6 @@ And `math-bash.sh` will go through that and add it up so you get an output of so
 
 `1047`
 
-`1047`
-
 `3739`
 
 `4786`
