@@ -82,7 +82,7 @@ And `math-bash.sh` will go through that and add it up so you get an output of so
 
 `9087`
 
-2.52 hrs`
+`2.52 hrs`
 
 When running
 
