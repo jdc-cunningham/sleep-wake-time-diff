@@ -87,3 +87,11 @@ And `math-bash.sh` will go through that and add it up so you get an output of so
 When running
 
 `$bash math-bash.sh`
+
+## Update
+
+Added `sleep.sh` which is a bash script that you run to put your linux computer runnning `i3-wm` into suspend with i3lock.
+
+You need to add your username to sudoers using visudo, check out this [link](https://askubuntu.com/questions/136356/allow-root-program-to-run-without-privileges)
+
+The reason for that is you normally have to run `pm-suspend` as sudo. If you run `sudo i3lock` you won't be able to log back in(from what I've experienced)
