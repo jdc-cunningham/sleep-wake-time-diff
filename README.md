@@ -95,3 +95,9 @@ Added `sleep.sh` which is a bash script that you run to put your linux computer 
 You need to add your username to sudoers using visudo, check out this [link](https://askubuntu.com/questions/136356/allow-root-program-to-run-without-privileges)
 
 The reason for that is you normally have to run `pm-suspend` as sudo. If you run `sudo i3lock` you won't be able to log back in(from what I've experienced)
+
+I put this file in my home directory which you get to by `cd ~` so if you're in that directory you just call:
+
+`$bash sleep.sh`
+
+And your computer will lock the screen and go into suspend using `pm-suspend`
