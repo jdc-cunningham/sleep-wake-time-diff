@@ -3,9 +3,10 @@ These are a couple of bash scripts to log sleep/wake times then do a diff to hou
 
 ## Note - This is for Linux
 
-## Two files:
+## Three Files:
 * sleep-wake-log-time.sh
 * math-bash.sh
+* sleep.sh - this one is new, also logs time when you put computer into suspend
 
 ## /lib/systemd/system-sleep
 This is where the `sleep-wake-log-time.sh` file goes.
