@@ -1,0 +1,28 @@
+#!/bin/bash
+
+# current time stamp
+timestamp () {
+  echo $(date "+%s")
+}
+
+# system event
+sleep () {
+  echo "sleep"
+}
+
+wake () {
+  echo "wake"
+}
+
+case "$1" in
+    suspend)
+        sleep >> '/home/your_username/scripts/bash/timelogs.txt'
+        timestamp >> '/your_username/jacob/scripts/bash/timelogs.txt'
+        ;;
+    resume) 
+        wake >> '/home/your_username/scripts/bash/timelogs.txt'
+        timestamp >> '/your_username/jacob/scripts/bash/timelogs.txt'
+        ;;
+    *)
+        ;;
+esac
