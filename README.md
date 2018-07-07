@@ -102,3 +102,12 @@ I put this file in my home directory which you get to by `cd ~` so if you're in 
 `$bash sleep.sh`
 
 And your computer will lock the screen and go into suspend using `pm-suspend`
+
+
+## Update 07/07/2018
+
+So it turns out my sleep/wake logs were not working correctly after that `$sudo pm-suspend` approach.
+
+I looked up some threads, [this one](https://askubuntu.com/questions/250690/how-to-run-a-script-when-suspending-resuming-sony-vaio-ubuntu-12-04) is what worked out for me. I put the `suspend-wake` bash script inside `/etc/pm/sleep.d/` and it works.
+
+The `pm-suspend` route definitely seems to save battery over time. Currently running this on Toshiba Chromebook 2, 2014 Celeron model on GalliumOS with i3-wm.
