@@ -89,7 +89,7 @@ When running
 
 `$bash math-bash.sh`
 
-## Update
+## Update 07/06/2018
 
 Added `sleep.sh` which is a bash script that you run to put your linux computer runnning `i3-wm` into suspend with i3lock.
 
